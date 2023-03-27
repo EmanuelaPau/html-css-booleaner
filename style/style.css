@@ -11,3 +11,21 @@ header{
     position: absolute;
     bottom: 10px;
 }
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.autore {
+    font-size: 2rem;
+    color: #7f7f7f;
+}
+
+.nome-autore {
+    color: #43b6e9;
+}
+
+.data{
+    font-size: 1.5rem;
+}
