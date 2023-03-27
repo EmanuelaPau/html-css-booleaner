@@ -4,12 +4,14 @@
     padding: 0;
  }
 
+/* Sezioni */
+
 header{
     background-color: #4ea0ff; 
     background-image: url("../img/pattern.png");
+    background-position: top;
     height: 150px;
     position:relative;
-    background-position: top;
     text-align: center;
 }
 
@@ -23,14 +25,7 @@ footer {
     text-align: center;
 }
 
-.the-booleaner-logo {
-    border-top: 10px;
-    width: 18%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/* Titoli */
 
 h1 {
     font-size: 4rem;
@@ -45,6 +40,17 @@ h2 {
 
 h3 {  
     font-size: 1.7rem;
+}
+
+/* Logo del giornale */
+
+#the-booleaner-logo {
+    border-top: 10px;
+    width: 18%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .autore {
@@ -86,12 +92,6 @@ table, tr, td, th{
     margin: 0%;
     border-collapse: collapse;
     border: none;
-}
-
-thead {
-    background-color: #43b6e9;
-    color: white;
-    line-height: 2rem;
 }
 
 .short-table-column {

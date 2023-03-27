@@ -4,12 +4,15 @@
     padding: 0;
  }
 
+/* Sezioni */
+
 header{
     background-color: #4ea0ff; 
     background-image: url("../img/pattern.png");
+    background-position: top;
     height: 150px;
     position:relative;
-    background-position: top;
+   
 }
 
 main {
@@ -20,12 +23,7 @@ footer {
     margin: 1.8%;
 }
 
-.the-booleaner-logo {
-    width: 18%;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-}
+/* Titoli */
 
 h1 {
     font-size: 4rem;
@@ -40,6 +38,14 @@ h2 {
 
 h3 {  
     font-size: 1.7rem;
+}
+
+/* Logo del giornale */
+#the-booleaner-logo {
+    width: 18%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 .autore {
