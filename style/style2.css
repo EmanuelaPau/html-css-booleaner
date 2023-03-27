@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+header{
+    background-color: #4ea0ff; 
+    background-image: url("../img/pattern.png");
+    height: 150px;
+    position:relative;
+    background-position: top;
+}
+
+main {
+    margin: 1.8%;
+}
+
+footer {
+    margin: 1.8%;
+}
+
+.the-booleaner-logo {
+    width: 18%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #797979;
+    line-height: 3rem;
+}
+
+h3 {  
+    font-size: 1.7rem;
+}
+
+.autore {
+    font-size: 2rem;
+    color: #7f7f7f;
+}
+
+.nome-autore {
+    color: #43b6e9;
+}
+
+.data{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.article-img {
+    height: 560px
+}
+
+.article-text {
+    font-size: 1.6rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.text-highlighted {
+    background-color: yellow;
+}
+
+table {
+    text-align: left;
+    border: 0;
+}
+
+table, tr, td, th{
+    padding: 0%;
+    margin: 0%;
+    border-collapse: collapse;
+    border: none;
+}
+
+thead {
+    background-color: #43b6e9;
+    color: white;
+    line-height: 2rem;
+}
+
+.short-table-column {
+    width: 25%;
+}
+
+.long-table-column {
+    width: 50%;
+}
+
+.blue-table-line{
+    background-color: #b1e5f2;  
+}
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.img-text {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
