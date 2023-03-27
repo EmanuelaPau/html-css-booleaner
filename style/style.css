@@ -43,3 +43,14 @@ h1 {
 
 .article-img {
     height: 560px
+}
+
+.article-text {
+    font-size: 1.6rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.text-highlighted {
+    background-color: yellow;
+}
