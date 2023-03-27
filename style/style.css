@@ -7,7 +7,7 @@
 header{
     background-color: #4ea0ff; 
     background-image: url("../img/pattern.png");
-    height: 120px;
+    height: 150px;
     position:relative;
     background-position: top;
 }
@@ -21,9 +21,10 @@ footer {
 }
 
 .the-booleaner-logo {
-    width: 15%;
+    width: 18%;
     position: absolute;
     bottom: 10px;
+    left: 10px;
 }
 
 h1 {
@@ -72,6 +73,13 @@ h3 {
 table {
     text-align: left;
     border: 0;
+}
+
+table, tr, td, th{
+    padding: 0%;
+    margin: 0%;
+    border-collapse: collapse;
+    border: none;
 }
 
 thead {
