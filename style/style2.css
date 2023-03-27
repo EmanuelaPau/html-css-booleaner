@@ -10,6 +10,7 @@ header{
     background-color: #4ea0ff; 
     background-image: url("../img/pattern.png");
     background-position: top;
+    background-size: 500px;
     height: 150px;
     position:relative;
     text-align: center;
@@ -46,7 +47,7 @@ h3 {
 
 #the-booleaner-logo {
     border-top: 10px;
-    width: 18%;
+    width: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -76,6 +77,10 @@ h3 {
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: left;
+}
+
+.ul-fix {
+    padding-left: 25px;
 }
 
 .text-highlighted {
