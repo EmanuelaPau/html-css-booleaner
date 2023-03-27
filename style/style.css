@@ -54,3 +54,27 @@ h1 {
 .text-highlighted {
     background-color: yellow;
 }
+
+table {
+    text-align: left;
+    border: 0;
+}
+
+thead {
+    background-color: #43b6e9;
+    color: white;
+    line-height: 2rem;
+}
+
+.short-table-column {
+    width: 25%;
+}
+
+.long-table-column {
+    width: 50%;
+}
+
+.blue-table-line{
+    background-color: #b1e5f2;  
+}
+
