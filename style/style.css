@@ -3,13 +3,17 @@
     margin: 0;
     padding: 0;
  }
- 
+
 header{
     background-color: #4ea0ff; 
     background-image: url("../img/pattern.png");
-    height: 150px;
+    height: 120px;
     position:relative;
     background-position: top;
+}
+
+main {
+    margin: 1%;
 }
 
 .the-booleaner-logo {
@@ -20,6 +24,7 @@ header{
 
 h1 {
     font-size: 4rem;
+    line-height: 4rem;
 }
 
 .autore {
@@ -33,4 +38,8 @@ h1 {
 
 .data{
     font-size: 1.5rem;
+    margin-bottom: 2%;
 }
+
+.article-img {
+    height: 560px
