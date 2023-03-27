@@ -1,3 +1,13 @@
-body {
-    color: red;
+header{
+    background-color: #4ea0ff; 
+    background-image: url("../img/pattern.png");
+    height: 150px;
+    position:relative;
+    background-position: top;
+}
+
+.the-booleaner-logo {
+    width: 15%;
+    position: absolute;
+    bottom: 10px;
 }
