@@ -16,6 +16,10 @@ main {
     margin: 1.8%;
 }
 
+footer {
+    margin: 1.8%;
+}
+
 .the-booleaner-logo {
     width: 15%;
     position: absolute;
@@ -25,6 +29,16 @@ main {
 h1 {
     font-size: 4rem;
     line-height: 4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #797979;
+    line-height: 3rem;
+}
+
+h3 {  
+    font-size: 1.7rem;
 }
 
 .autore {
@@ -78,3 +92,13 @@ thead {
     background-color: #b1e5f2;  
 }
 
+.container {
+    position: relative;
+    color: white;
+}
+
+.img-text {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
