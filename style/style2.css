@@ -99,10 +99,6 @@ table, tr, td, th{
     border: none;
 }
 
-.short-table-column {
-    width: 25%;
-}
-
 .long-table-column {
     width: 50%;
 }
@@ -111,14 +107,20 @@ table, tr, td, th{
     background-color: #b1e5f2;  
 }
 
-.container {
-    position: relative;
+.box-img {
+    height:200px;
+    width: 300px;
+    font-weight: bold;
     color: white;
-    display: inline-block;
+    font-size: 1.7rem;
+    padding: 1%;
+    margin-bottom: 15px;
 }
 
-.img-text {
-    position: absolute;
-    top: 20px;
-    left: 15px;
+.box-monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+.box-graph {
+    background-image: url("../img/graph.jpg");
 }

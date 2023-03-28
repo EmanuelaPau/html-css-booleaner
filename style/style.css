@@ -12,7 +12,6 @@ header{
     background-position: top;
     background-size: 500px;
     height: 150px;
-    position:relative;
 }
 
 main {
@@ -43,9 +42,7 @@ h3 {
 /* Logo del giornale */
 #the-booleaner-logo {
     width: 300px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+    margin-top: 70px;
 }
 
 .autore {
@@ -99,10 +96,6 @@ thead {
     line-height: 2rem;
 }
 
-.short-table-column {
-    width: 25%;
-}
-
 .long-table-column {
     width: 50%;
 }
@@ -111,13 +104,20 @@ thead {
     background-color: #b1e5f2;  
 }
 
-.container {
-    position: relative;
+.box-img {
+    height:200px;
+    width: 300px;
+    font-weight: bold;
     color: white;
+    font-size: 1.7rem;
+    padding: 1%;
+    margin-bottom: 15px;
 }
 
-.img-text {
-    position: absolute;
-    top: 20px;
-    left: 15px;
+.box-monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+.box-graph {
+    background-image: url("../img/graph.jpg");
 }
